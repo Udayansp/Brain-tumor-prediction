@@ -11,7 +11,7 @@ from PIL import Image
 app = Flask(__name__)
 
 # Load your custom ResNet50V2-based model
-model = tf.keras.models.load_model("brain_tumor_classification.h5")
+model = tf.keras.models.load_model("Brain-tumor-prediction/brain_tumor_classification.h5")
 
 @app.route('/', methods=['GET'])
 def hello_word():
