@@ -1,6 +1,6 @@
-flask==3.0.0
-tensorflow==2.12.1
-numpy>=1.19.2
-scikit-learn>=0.24.1
-opencv-python>=4.5.3
-Pillow==8.3.2
+flask
+tensorflow
+numpy
+scikit-learn
+opencv-python
+Pillow
